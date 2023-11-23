@@ -1,0 +1,86 @@
+.container{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  width: 55%;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.battery{
+font-size: 12px;
+}
+
+.street{
+font-size: 12px;
+}
+
+.subject{
+  font-size: 20px;
+}
+
+.battery-status{
+height: 20px;
+width: 60%;
+}
+
+.red{
+background-color: #f34336;
+width: 51%;
+}
+
+.green{
+background-color: #008400;
+width: 200%;
+}
+
+.orange{
+background-color: #f0ac47;
+width: 115%;
+}
+
+.row{
+  color: white;
+  padding-bottom: 20px;
+}
+
+.container-scooters{
+align-self: start;
+padding-top: 15px;
+}
+
+.navbar{
+  background-color: lime;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap:5px;
+}
+
+.navbar-buttons{
+  font-size: 9px;
+}
+
+h1{
+  color: lime;
+  font-size: 25px;
+}
+
+.logo{
+  width: 150px ;
+}
